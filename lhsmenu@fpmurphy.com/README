@@ -62,16 +62,14 @@ error message is.
 Version:
 --------
 
-V1.0  10/28/2011   Initial version. 
+V1.0  10/28/2011  Initial version. 
+V1.1  07/09/2012  Updated for Compatibility with GNOME Shell 3.4
 
 
 Notes:
 ------
 
-This version of the extension does NOT work on versions of 
-the GNOME Shell < 3.2.
-
-This has only been tested on Fedora 16 and GNOME Shell 3.2.1.
+This version of the extension has only been tested on GNOME Shell 3.4
 
 It is based on the menu extension in the Linux Mint MGSE
 repository.

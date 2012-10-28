@@ -639,7 +639,7 @@ GreatMenu.prototype = {
     enable: function() {  
         this._appsMenuButton = new ApplicationsButton(this._iconPath, this._menuOrientation); 
 
-        Main.panel._leftBox.insert_actor(this._appsMenuButton.actor, 1);    
+        Main.panel._leftBox.insert_child_at_index(this._appsMenuButton.actor, 0);    
         Main.panel._menus.addMenu(this._appsMenuButton.menu);
         Main.panel._mintMenu = this._appsMenuButton;
     
